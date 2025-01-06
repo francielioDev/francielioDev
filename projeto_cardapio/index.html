@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <link rel="icon" href="logo_01.png" type="png">
+    <title>Cardápio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="tudo">
+        <div class="container">
+            <div class="carousel">
+                <div class="card">
+                    <img id="logo" src="potes/logo_01.png" alt="Açaí 0">
+                    <p>Açaí da Ju</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai_mm.png" alt="Açaí 1">
+                    <p>Açaí Tradicional</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai_banana.png" alt="Açaí 2">
+                    <p>Açaí com Frutas</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai.png" alt="Açaí 3">
+                    <p>Açaí com coco ralado</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai_cocoralado.png" alt="Açaí 4">
+                    <p>Cupuaçu</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai_granola.png" alt="Açaí 5">
+                    <p>Açaí com Granola</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai_jujuba.png" alt="Açaí 6">
+                    <p>Açaí com Jujuba</p>
+                </div>
+                <div class="card">
+                    <img src="potes/acai_bolas.png" alt="Açaí 7">
+                    <p>Creme de ninho trufado</p>
+                </div>
+                <div class="card">
+                    <img src="potes/frutas_acai.png" alt="Açaí 8">
+                    <p>Açaí com Morango</p>
+                </div>
+            </div>
+        </div>
+        <div class="barra_verde">
+
+        </div>
+         <!-------------------------------------TAMANHOS----------------------------------------->
+        <div class="corpo">
+            <label>TAMANHO</label>
+            <br>
+            <br>
+            <input class="cheq"  type="checkbox" name="op" value="*TAMANHO*" checked>  MARCAR APENAS OS QUE DESEJAR!
+            <br>
+            <br>
+            
+                <input class="cheq" type="radio" name="op" value="200ml R$10,00"> 200ml R$10,00
+            <br>
+            <br>
+
+                <input class="cheq" type="radio" name="op" value="350ml R$13,00"> 350ml R$13,00
+            <br>
+            <br>
+
+                <input class="cheq" type="radio" name="op" value="500ml R$15,00"> 500ml R$15,00
+        </div>
+        <!-------------------------------------SABORES----------------------------------------->
+        <div class="corpo">
+            <label>SABORES</label>
+            <br>
+            <br>
+                <input class="cheq"  type="checkbox" name="op1" value="*SABOR*" checked>  MARCAR APENAS OS QUE DESEJAR!
+            <br>
+            <br>            
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ TRADICIONAL"> AÇAÍ TRADICIONAL
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="CUPUAÇU"> CUPUAÇU
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="CUPUAÇU + CREME DE OVOMALTINE"> CUPUAÇU + CREME DE OVOMALTINE
+            <br>
+            <br>                
+                <input class="cheq" type="radio" name="op1" value="CUPUAÇU + NINHO"> CUPUAÇU + NINHO
+            <br>
+            <br>    
+                <input class="cheq" type="radio" name="op1" value="NINHO TRUFADO + OVOMALTINE"> NINHO TRUFADO + OVOMALTINE
+            <br>
+            <br>    
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME TAPIOCA"> AÇAÍ + CREME TAPIOCA
+            <br>
+            <br>                
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE MARACUJÁ "> AÇAÍ + CREME DE MARACUJÁ 
+            <br>
+            <br>    
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE ABACAXI"> AÇAÍ + CREME DE ABACAXI
+            <br>
+            <br>    
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE MORANGO"> AÇAÍ + CREME DE MORANGO
+            <br>
+            <br>        
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE OVOMALTINE"> AÇAÍ + CREME DE OVOMALTINE
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE GUARANÁ"> AÇAÍ + CREME DE GUARANÁ
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CUPUAÇU"> AÇAÍ + CUPUAÇU
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE NINHO"> AÇAÍ + CREME DE NINHO
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME BELGA"> AÇAÍ + CREME BELGA
+            <br>
+            <br>
+                <input class="cheq" type="radio" name="op1" value="AÇAÍ + CREME DE OREO"> AÇAÍ + CREME DE OREO
+            <br>
+            <br>
+        </div>
+        <!------------------------------------COBERTURA------------------------------------------>
+        <div class="corpo">
+            <label>COBERTURA</label>
+            <br>
+            <br>
+                <input class="cheq"  type="checkbox" name="op2" value="*COBERTURA*" checked>  MARCAR APENAS OS QUE DESEJAR!
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_cobertura" src="coberturas_JPG_1000/leite condensado.jpg">
+                    <input class="cheq" type="radio" name="op2" value="LEITE CONDESANDO"> LEITE CONDESANDO
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_cobertura" src="coberturas_JPG_1000/cobertura de chocolate.jpg">
+                    <input class="cheq" type="radio" name="op2" value="C. DE CHOCOLATE"> COBERTURA DE CHOCOLATE
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_cobertura" src="coberturas_JPG_1000/cobertura de morango.jpg">
+                    <input class="cheq" type="radio" name="op2" value="C. DE MORANGO"> COBERTURA DE MORANGO
+                </div>
+            <br>
+            <br>
+            <div class="img">
+                <img class="img_cobertura" src="coberturas_JPG_1000/cobertura de caramelo.jpg">
+                <input class="cheq" type="radio" name="op2" value="C. DE CARAMELO"> COBERTURA DE CARAMELO
+            </div>
+            <br>
+            <br>
+            <div class="img">
+                <img class="img_cobertura" src="coberturas_JPG_1000/cobertura de uva.jpg">
+                <input class="cheq" type="radio" name="op2" value="C. DE CARAMELO"> COBERTURA DE UVA
+            </div>
+            <br>
+            <br>
+            <div class="img">
+                <img class="img_cobertura" src="coberturas_JPG_1000/cobertura de menta.jpg">
+                <input class="cheq" type="radio" name="op2" value="C. DE CARAMELO"> COBERTURA DE MENTA
+            </div>
+             
+        </div>
+       
+       <!-----------------------ACOMPANHAMENTOS----------------------------->
+        <div class="corpo">
+        <label>ACOMPANHAMENTO</label>
+            <br>
+            <br>
+            
+                <input class="cheq"  type="checkbox" name="op" value="*ACOMPANHAMENTO*" checked>  MARCAR APENAS OS QUE DESEJAR!
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/LEITE EM PO.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="LEITE EM PÓ"> LEITE EM PÓ
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/FARINHA LACTEA.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="FARINHA LÁCTEA"> FARINHA LÁCTEA
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/OVOMALTINE.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="OVOMALTINE"> OVOMALTINE
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/DISQUETE.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="DISQUETES"> DISQUETES
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/CHOCOBALL.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="CHOCOBALL"> CHOCOBALL
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/AMENDOIM.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="AMENDOIM"> AMENDOIM
+                </div>
+                
+            <br>
+            <br>  
+                <div class="img">
+                    <img class="img_complementos" src="complementos/GRANOLA.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="GRANOLA"> GRANOLA
+                </div>  
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/COCO RALADO.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="COCO RALADO"> COCO RALADO
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/PAcOCA.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="PAÇOCA"> PAÇOCA
+                </div>
+                
+            <br>
+            <br>  
+                <div class="img">
+                    <img class="img_complementos" src="complementos/JUJUBA.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="JUJUBA"> JUJUBA
+                </div>              
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/CHOCO POWER.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="CHOCO POWER"> CHOCO POWER
+                </div>
+                
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_complementos" src="complementos/GOTAS DE CHOCOLATE.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="GOTAS DE CHOCOLATE"> GOTAS DE CHOCOLATE
+                </div>
+                
+            <br>
+            <br>
+        </div>
+            <!-----------------------------FRUTAS------------------------------------------------->
+        <div class="corpo">
+    <label>FRUTAS</label>
+            <br>
+            <br>
+                <input class="cheq"  type="checkbox" name="op" value="*FRUTAS*" checked>  MARCAR APENAS OS QUE DESEJAR!
+            <br>
+            <br>
+            <div class="img">
+                <img class="img_frutas" src="frutas/banana.jpeg">
+                <input class="cheq"  type="checkbox" name="op" value="BANANA R$ 1,00"> BANANA R$ 1,00
+            </div>
+            
+            <br>
+            <br>  
+                <div class="img">
+                    <img class="img_frutas" src="frutas/morango.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="MORANGO R$ 3,00"> MORANGO R$ 3,00
+                </div>            
+            
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_frutas" src="frutas/kiwi.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="KIWI R$ 3,00"> KIWI R$ 3,00
+                </div>
+            
+            <br>
+            <br>
+                <div class="img">
+                    <img class="img_frutas" src="frutas/uva.jpeg">
+                    <input class="cheq"  type="checkbox" name="op" value="UVA R$ 1,00"> UVA R$ 1,00
+                </div>
+            
+            <br>
+            <br>
+            
+        </div>
+            <!----------------------------COMPLEMENTOS PREMIUM---------------------->
+            
+
+            <div class="corpo">
+    <label>COMPLEMENTOS PREMIUM</label>
+                <br>
+                <br>
+                    <input class="cheq"  type="checkbox" name="op" value="*COMPLEMENTOS PREMIUM*" checked>  MARCAR APENAS OS QUE DESEJAR!
+                <br>
+                <br>
+               
+                    <div class="img">
+                        <img class="img_premium" src="extras/kit kat.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="KIT KAT R$1,00"> KIT KAT R$1,00
+                    </div>
+                
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/notela.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="NUTELA R$3,00"> NUTELA R$3,00
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/bis.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="BIS R$1,00"> BIS R$1,00
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/bananinha fini.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="BANANINHA FINI 3 UNID. R$2,00"> BANANINHA FINI 3 UNID. R$2,00
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/beijos fini.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="BEIJOS FINI 3 UNID. R$2,00"> BEIJOS FINI 3 UNID. R$2,00
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/marshmallow fini.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="MARSHMALLOW FINI 3 UNID. R$2,00"> MARSHMALLOW FINI 3 UNID. R$2,00
+                    </div>
+                    
+                <br>  
+                <br>  
+                    <div class="img">
+                        <img class="img_premium" src="extras/dentaduras fini.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="DENTADURAS FINI 3 UNID. R$2,00"> DENTADURAS FINI 3 UNID. R$2,00
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/batom.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="BATOM R$2,00"> BATOM R$2,00
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/cereja.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="CEREJA R$1,00"> CEREJA R$1,00
+                    </div>
+                    
+                <br>
+                <br> 
+                    <div class="img">
+                        <img class="img_premium" src="extras/doce de leite.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="DOCE DE LEITE R$1,00"> DOCE DE LEITE R$1,00
+                    </div>              
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/TUBINHO DE WAFER RECHEADO.jpeg">
+                        <input class="cheq"  type="checkbox" name="op" value="TUBINHO DE WAFER RECHEADO R$0,50"> TUBINHO DE WAFER RECHEADO R$0,50
+                    </div>
+                    
+                <br>
+                <br>
+                    <div class="img">
+                        <img class="img_premium" src="extras/CREME CHOCANTE DE OVOMALTINE.jpeg">
+                        <input class="cheq" type="checkbox" name="op" value="CREME CROCANTE DE OVOMALTINE R$3,00"> CREME CROCANTE DE OVOMALTINE R$3,00
+                    </div>
+                    
+                <br>
+            </div>
+            <!------------------------------------------------------------------------------>
+            <!--<div id="result" >FAÇA SEU PEDIDO!</div>-->
+        
+            <div class="btn_posicao">
+                <button id="testCheckbox" onclick="myFunction()">Enviar para WhatsApp</button>
+            </div>
+            <!------------------------------------------------------------------------------>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
