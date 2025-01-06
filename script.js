@@ -107,7 +107,7 @@ setInterval(moveCarousel, 1000); // Troca de card a cada 3 segundos
             texto1 = pedido + '*TOTAL R$: ' + valor + "*";
             
 
-            var url = "https://wa.me/55849992069835?text=" + texto1;
+            var url = "https://wa.me/5584992069835?text=" + texto1;
             window.open(url, '_blank').focus();
    
         });
